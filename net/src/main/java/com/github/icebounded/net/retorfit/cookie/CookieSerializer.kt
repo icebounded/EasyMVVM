@@ -11,7 +11,7 @@ import kotlinx.serialization.json.JsonEncoder
 import okhttp3.Cookie
 
 /**
- * Created by liuyanxi
+ * Created by Andy
  * on 2021/3/2
  */
 class CookieSerializer : KSerializer<Cookie> {

@@ -11,7 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import java.lang.reflect.ParameterizedType
 
 /**
- * Created by liuyanxi
+ * Created by Andy
  * on 2021/2/25
  */
 abstract class BaseMvvmFragment<V : ViewDataBinding, VM : BaseMvvmViewModel> : BaseFragment() {

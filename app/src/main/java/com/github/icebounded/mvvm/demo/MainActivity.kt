@@ -6,7 +6,7 @@ import com.github.icebounded.mvvm.base.BaseMvvmActivity
 import com.github.icebounded.mvvm.demo.databinding.AppActivityMainBinding
 
 /**
- * Created by liuyanxi
+ * Created by Andy
  * on 2021/2/25
  */
 class MainActivity : BaseMvvmActivity<AppActivityMainBinding, MainViewModel>() {

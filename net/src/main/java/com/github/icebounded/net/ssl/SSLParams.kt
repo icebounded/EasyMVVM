@@ -4,7 +4,7 @@ import javax.net.ssl.SSLSocketFactory
 import javax.net.ssl.X509TrustManager
 
 /**
- * Created by liuyanxi
+ * Created by Andy
  * on 2021/3/1
  */
 class SSLParams {

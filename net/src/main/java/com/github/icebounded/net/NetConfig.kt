@@ -1,7 +1,7 @@
 package com.github.icebounded.net
 
 /**
- * Created by liuyanxi
+ * Created by Andy
  * on 2021/3/1
  */
 class NetConfig {

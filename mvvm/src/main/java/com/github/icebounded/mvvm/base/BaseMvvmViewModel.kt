@@ -6,7 +6,7 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 
 /**
- * Created by liuyanxi
+ * Created by Andy
  * on 2021/2/25
  */
 abstract class BaseMvvmViewModel() : ViewModel(), BaseLifecycleObserver {

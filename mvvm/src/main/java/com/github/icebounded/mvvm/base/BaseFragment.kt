@@ -8,7 +8,7 @@ import androidx.annotation.LayoutRes
 import androidx.fragment.app.Fragment
 
 /**
- * Created by liuyanxi
+ * Created by Andy
  * on 2021/2/25
  */
 abstract class BaseFragment : Fragment() {

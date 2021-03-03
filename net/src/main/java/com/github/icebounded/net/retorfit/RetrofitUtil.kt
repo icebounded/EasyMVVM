@@ -10,7 +10,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 /**
- * Created by liuyanxi
+ * Created by Andy
  * on 2021/2/28
  */
 class RetrofitUtil private constructor() {

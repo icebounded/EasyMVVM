@@ -5,7 +5,7 @@ import com.github.icebounded.net.ssl.getSslSocketFactory
 import okhttp3.OkHttpClient
 
 /**
- * Created by liuyanxi
+ * Created by Andy
  * on 2021/3/1
  */
 class OkHttpUtil private constructor() {

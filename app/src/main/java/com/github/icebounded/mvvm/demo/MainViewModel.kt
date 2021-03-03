@@ -11,7 +11,7 @@ import kotlinx.coroutines.launch
 import kotlinx.parcelize.Parcelize
 
 /**
- * Created by liuyanxi
+ * Created by Andy
  * on 2021/2/25
  */
 class MainViewModel(savedStateHandle: SavedStateHandle) : BaseMvvmViewModel(savedStateHandle) {

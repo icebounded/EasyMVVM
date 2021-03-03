@@ -1,7 +1,7 @@
 package com.github.icebounded.base.ext
 
 /**
- * Created by liuyanxi
+ * Created by Andy
  * on 2021/2/25
  */
 val Any.simpleName: String

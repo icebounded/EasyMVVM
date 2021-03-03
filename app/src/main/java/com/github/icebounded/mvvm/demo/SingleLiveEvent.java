@@ -12,7 +12,7 @@ import androidx.lifecycle.Observer;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
- * Created by liuyanxi
+ * Created by Andy
  * on 2021/2/25
  */
 public class SingleLiveEvent <T> extends MutableLiveData<T> {

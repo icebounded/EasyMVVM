@@ -13,7 +13,7 @@ import okhttp3.Cookie
 import java.util.concurrent.ConcurrentHashMap
 
 /**
- * Created by liuyanxi
+ * Created by Andy
  * on 2021/3/2
  */
 class CookieStore(context: Context, sp_name: String) {
