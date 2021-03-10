@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="pers.icebounded.mvvm.demo.paging.PagingTestViewModel" />
+    </data>
+
+    <pers.icebounded.lib.statelayout.StateLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:page_state="@{viewModel.pageState}"
+        tools:context=".paging.PagingTestActivity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </pers.icebounded.lib.statelayout.StateLayout>
+</layout>

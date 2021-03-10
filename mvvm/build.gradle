@@ -3,6 +3,7 @@ plugins {
     id 'kotlin-android'
     id 'kotlinx-serialization'
     id 'kotlin-parcelize'
+    id 'kotlin-kapt'
 }
 
 apply from: "../dependencies.gradle"
@@ -44,15 +45,25 @@ android {
 
 dependencies {
 
-    compileOnly project(path: ':base')
+    compileOnly project(path: ':lib')
+    compileOnly project(path: ':net')
 
     api lifecycleDependencies.viewmodel
     api lifecycleDependencies.livedata
-    api lifecycleDependencies.savedstate
+//    api lifecycleDependencies.savedstate
     api lifecycleDependencies.commonJava8
     api lifecycleDependencies.service
     api lifecycleDependencies.process
     api lifecycleDependencies.reactivestreams
     testImplementation lifecycleDependencies.coreTesting
+
+    api androidXDependencies.paging
+
+    api(glideDependencies.glide) {
+        exclude group: 'androidx.annotation'
+        exclude group: 'androidx.fragment'
+        exclude group: 'androidx.vectordrawable'
+    }
+    annotationProcessor glideDependencies.compiler
 
 }

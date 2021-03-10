@@ -1,0 +1,9 @@
+<resources>
+
+    <!--需要要求定位错误类型，不知道用什么类型使用此代码 ErrorType.getDefaultErrorMsg()-->
+    <string name="net_error_default">服务器开小差啦[%s]~</string>
+    <string name="net_error_http">网络出错啦[%s]~</string>
+    <string name="net_error_disabled">您目前的网络不太好呢~</string>
+    <string name="net_error_parse">数据解析异常~</string>
+
+</resources>

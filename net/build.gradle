@@ -39,12 +39,11 @@ android {
 }
 
 dependencies {
-    compileOnly project(path: ':base')
+    compileOnly project(path: ':lib')
     api retrofitDependencies.retrofit
     api retrofitDependencies.converterGson
+    api retrofitDependencies.converterKotlinxSerialization
     api retrofitDependencies.retrofitMock
-    api okHttp3.loggingIntercepter
-    api okHttp3.mockWebserver
-    api glide.glide
-    annotationProcessor glide.compiler
+    api okHttp3Dependencies.loggingIntercepter
+    api okHttp3Dependencies.mockWebserver
 }

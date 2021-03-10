@@ -1,5 +1,5 @@
 include ':net'
 include ':mvvm'
-include ':base'
-include ':app'
+include ':lib'
+include ':demo'
 rootProject.name = "Mvvm"
